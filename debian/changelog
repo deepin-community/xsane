@@ -1,8 +1,11 @@
-xsane (0.999-12) UNRELEASED; urgency=medium
+xsane (0.999-12.1) unstable; urgency=medium
 
-  * update
+  * Non-maintainer upload.
+  * debian/control: Recommends firefox-esr | firefox | www-browser rather
+    than firefox | www-browser to avoid fallback to www-browser when
+    package firefox is not available. (Closes: #1076101)
 
- -- Jörg Frings-Fürst <debian@jff.email>  Wed, 25 May 2022 08:54:42 -0400
+ -- Boyuan Yang <byang@debian.org>  Thu, 12 Sep 2024 16:06:52 -0400
 
 xsane (0.999-12) unstable; urgency=medium
 

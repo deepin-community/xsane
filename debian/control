@@ -28,7 +28,7 @@ Depends:
  xsane-common (= ${source:Version})
 Recommends:
  cups-client,
- firefox | www-browser
+ firefox-esr | firefox | www-browser
 Suggests:
  gimp,
  gocr | cuneiform | tesseract-ocr | ocrad,
